@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Nico Couwberghs" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <title>Beslissingen maken</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      "use strict";
+      /*
+      function verwittig() {
+        alert("opgelet!");
+      }
+      verwittig();
+
+
+      function eersteCharacter(argument) {
+        let eersteKarakter = argument.charAt(0);
+
+        document.write(
+          `<p>Het eerste karakter uit "${argument}" is: ${eersteKarakter}</p>`
+        );
+      }
+
+      eersteCharacter("Eric");
+
+
+
+      function hoofdletters(tekst) {
+        let omgezet = tekst.toUpperCase();
+        document.write(`<p>${omgezet}</p>`);
+      }
+
+      hoofdletters("html");
+      hoofdletters("css");
+
+
+
+      let namen = ["Jan", "Piet", "Joris"];
+      let dieren = ["hond", "kat", "paard"];
+
+      function toonEersteElementUitArray(ontvangen) {
+        document.write(`<p>${ontvangen[0]}</p>`);
+      }
+      toonEersteElementUitArray(namen);
+      toonEersteElementUitArray(dieren);
+
+       
+
+      function schrijf(inhoud) {
+        document.write(inhoud);
+      }
+      schrijf("Hallo Wereld");
+
+
+
+      function product(nr1, nr2, nr3) {
+        let resultaat = nr1 * nr2 * nr3;
+        return resultaat;
+      }
+
+      let uitkomst = product(20, 3, 4);
+      document.write(uitkomst);
+      
+      
+
+      let namen = ["Jan", "Piet", "Joris"];
+
+      function sorteerOmgekeerdJoin(input) {
+        let resultaat = input.sort().reverse().join("-");
+
+        return resultaat;
+      }
+      let namenAangepast = sorteerOmgekeerdJoin(namen);
+      document.write(namenAangepast);
+
+
+
+      let getal1 = prompt("Wat is het eerste getal?");
+      let getal2 = prompt("Wat is het tweede getal?");
+
+      let oproep = buh(getal1, getal2);
+
+      function buh(nr1, nr2) {
+        if (nr1 < nr2) {
+          return "kleiner dan";
+        } else if (nr1 > nr2) {
+          return "groter aan";
+        } else {
+          return "gelijk aan";
+        }
+      }
+
+      document.write(`<p>${getal1} is ${oproep} ${getal2}</p>`);
+      
+     
+
+      let eersteCharacter = () => {
+        let vakNaam = "Javascript";
+        let eerste = vakNaam.charAt(0);
+        document.write(
+          `<p>Het eerste karakter uit "${vakNaam}" is: ${eerste}</p>`
+        );
+      };
+
+      eersteCharacter();
+
+       
+
+      let doeAlert = () => alert("alert via een fat arrow function");
+
+*/
+
+      let hoofdletters = (tekst) => {
+        let caps = tekst.toUpperCase();
+        document.write(`<p>${caps}</p>`);
+      };
+      hoofdletters("javascript");
+      hoofdletters("css");
+    </script>
+    <!--<button onclick="doeAlert();">klik mij</button>-->
+  </body>
+</html>
